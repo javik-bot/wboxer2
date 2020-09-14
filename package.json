@@ -1,0 +1,17 @@
+{
+  "name": "amei-bot",
+  "version": "1.17.1",
+  "description": "",
+  "main": "bot.js",
+  "dependencies": {
+    "dateformat": "^3.0.3",
+    "discord.js": "^11.6.4",
+    "mysql": "^2.18.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "andrew-zex",
+  "license": "ISC"
+}

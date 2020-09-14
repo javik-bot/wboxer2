@@ -1,0 +1,71 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/data/data/io.tempage.dorynode/files/bin/node',
+1 verbose cli   '/data/user/0/io.tempage.dorynode/files/npm/bin/npm-cli.js',
+1 verbose cli   'update',
+1 verbose cli   '--no-bin-links' ]
+2 info using npm@3.10.10
+3 info using node@v6.11.4
+4 silly mapToRegistry name dateformat
+5 silly mapToRegistry using default registry
+6 silly mapToRegistry registry https://registry.npmjs.org/
+7 silly mapToRegistry data Result {
+7 silly mapToRegistry   raw: 'dateformat',
+7 silly mapToRegistry   scope: null,
+7 silly mapToRegistry   escapedName: 'dateformat',
+7 silly mapToRegistry   name: 'dateformat',
+7 silly mapToRegistry   rawSpec: '',
+7 silly mapToRegistry   spec: 'latest',
+7 silly mapToRegistry   type: 'tag' }
+8 silly mapToRegistry uri https://registry.npmjs.org/dateformat
+9 silly mapToRegistry name discord.js
+10 silly mapToRegistry using default registry
+11 silly mapToRegistry registry https://registry.npmjs.org/
+12 silly mapToRegistry data Result {
+12 silly mapToRegistry   raw: 'discord.js',
+12 silly mapToRegistry   scope: null,
+12 silly mapToRegistry   escapedName: 'discord.js',
+12 silly mapToRegistry   name: 'discord.js',
+12 silly mapToRegistry   rawSpec: '',
+12 silly mapToRegistry   spec: 'latest',
+12 silly mapToRegistry   type: 'tag' }
+13 silly mapToRegistry uri https://registry.npmjs.org/discord.js
+14 verbose request uri https://registry.npmjs.org/dateformat
+15 verbose request no auth needed
+16 info attempt registry request try #1 at 04:20:47 GMT+0500 (YEKT)
+17 verbose request id 3509d16f4158ec08
+18 http request GET https://registry.npmjs.org/dateformat
+19 verbose request uri https://registry.npmjs.org/discord.js
+20 verbose request no auth needed
+21 info attempt registry request try #1 at 04:20:47 GMT+0500 (YEKT)
+22 http request GET https://registry.npmjs.org/discord.js
+23 info retry will retry, error on last attempt: Error: read ECONNRESET
+24 info retry will retry, error on last attempt: Error: read ECONNRESET
+25 info attempt registry request try #2 at 04:21:00 GMT+0500 (YEKT)
+26 http request GET https://registry.npmjs.org/dateformat
+27 info attempt registry request try #2 at 04:21:00 GMT+0500 (YEKT)
+28 http request GET https://registry.npmjs.org/discord.js
+29 info retry will retry, error on last attempt: Error: read ECONNRESET
+30 info retry will retry, error on last attempt: Error: read ECONNRESET
+31 info attempt registry request try #3 at 04:22:02 GMT+0500 (YEKT)
+32 http request GET https://registry.npmjs.org/dateformat
+33 info attempt registry request try #3 at 04:22:02 GMT+0500 (YEKT)
+34 http request GET https://registry.npmjs.org/discord.js
+35 verbose stack Error: read ECONNRESET
+35 verbose stack     at exports._errnoException (util.js:1020:11)
+35 verbose stack     at TLSWrap.onread (net.js:568:26)
+36 verbose cwd /storage/emulated/0/res/worldboxer
+37 error Linux 3.10.65
+38 error argv "/data/data/io.tempage.dorynode/files/bin/node" "/data/user/0/io.tempage.dorynode/files/npm/bin/npm-cli.js" "update" "--no-bin-links"
+39 error node v6.11.4
+40 error npm  v3.10.10
+41 error code ECONNRESET
+42 error errno ECONNRESET
+43 error syscall read
+44 error network read ECONNRESET
+45 error network This is most likely not a problem with npm itself
+45 error network and is related to network connectivity.
+45 error network In most cases you are behind a proxy or have bad network settings.
+45 error network
+45 error network If you are behind a proxy, please make sure that the
+45 error network 'proxy' config is set properly.  See: 'npm help config'
+46 verbose exit [ 1, true ]
